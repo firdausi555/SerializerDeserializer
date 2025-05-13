@@ -57,6 +57,8 @@ GET Request:
 The Django model objects are retrieved from the database.
 The serializer converts these model objects into JSON.
 The JSON is returned as the response.
+
+
 Key Points:
 POST: You send JSON, and it is converted to a Python dictionary, which is then used to create a Django model object.
 GET: The Django model objects are converted back into JSON to send as the response.
